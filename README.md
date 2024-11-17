@@ -62,5 +62,11 @@ Here are some example models that can be downloaded:
 
 by running above code you can chat on terminal with a local LLM or SLM. If you are working with Nvidia Jetson AGX you can use bigger LLM but if you are using other Jetson modules you can use smaller models.
 running jetson-container starts ollama server and now you can use ollama_run.py code or if you want you can modify it in python coding.
-<div align="center"> <img src="https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/terminal_ollama.gif" alt="Description of GIF" width="800"> </div>
+
+Run ollama in terminal:
+<div align="center"> <img src="https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/terminal_ollama.gif" alt="Description of GIF" width="700"> </div>
+
+Run ollama in python with script ollama_run.py. be aware for accessing the ollama server run it with jetson-container.
+<div align="center"> <img src="https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/ollama_python.gif" alt="Description of GIF" width="700"> </div>
+
 
