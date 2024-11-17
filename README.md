@@ -60,5 +60,7 @@ Here are some example models that can be downloaded:
 | LLaVA              | 7B         | 4.5GB | `ollama run llava`               |
 | Solar              | 10.7B      | 6.1GB | `ollama run solar`               |
 
-
+by running above code you can chat on terminal with a local LLM or SLM. If you are working with Nvidia Jetson AGX you can use bigger LLM but if you are using other Jetson modules you can use smaller models.
+running jetson-container starts ollama server and now you can use ollama_run.py code or if you want you can modify it in python coding.
+![ran ollama in terminal](https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/terminal_ollama.gif)
 
