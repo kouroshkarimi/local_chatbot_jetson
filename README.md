@@ -71,9 +71,9 @@ by running above code you can chat on terminal with a local LLM or SLM. If you a
 running jetson-container starts ollama server and now you can use ollama\_run.py code or if you want you can modify it in python coding.
 
 Run ollama in terminal:
-<img src="https://github.com/kouroshkarimi/blob/main/Files/terminal_ollama.gif" alt="Description of GIF" width="700">
+<img src="https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/terminal_ollama.gif" alt="Description of GIF" width="700">
 Run ollama in python with script ollama\_run.py. be aware for accessing the ollama server run it with jetson-container.
-<img src="https://github.com/kouroshkarimi/blob/main/Files/ollama_python.gif" alt="Description of GIF" width="700">
+<img src="https://github.com/kouroshkarimi/local_chatbot_jetson/blob/main/Files/ollama_python.gif" alt="Description of GIF" width="700">
 
 ## TTS and STT with Riva Server
 In order to creating a chatbot we need to convert the  users voice into text that the we can feed it to model and after model inference the output turn the created text back to voice. So we need Automated Speech Recognition and Text To Speech (TTS) modules. 
@@ -95,7 +95,7 @@ echo "export PATH=\"\$PATH:$(pwd)/ngc-cli\"" >> ~/.bash_profile && source ~/.bas
 ngc config set
 ```
 Confige ngc with your API key and below information:
-<img src="https://github.com/kouroshkarimi/blob/main/Files/ollama_python.gif" alt="Description of GIF" width="700">
+<img src="https://files.seeedstudio.com/wiki/reComputer/Application/Local_Voice_Chatbot/setup_riva_3.png" alt="Description of GIF" width="700">
 with these commands NGC have setup in our Jetson and now we can use Riva services.
 3. Install Riva on Jetson:
 Riva needs access to NGC services and we have done those steps. now we are ready for install and run Riva on our reComputer. be aware i am working on Jetpack 6.0 and the compatible Riva version for this JP6 is 2.16.0. you can find your compatible Riva version in the its [Support Matrix](https://docs.nvidia.com/deeplearning/riva/user-guide/docs/support-matrix.html "Support Matrix").
