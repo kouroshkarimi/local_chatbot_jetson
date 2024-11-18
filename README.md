@@ -131,8 +131,16 @@ now we are ready to pull the Riva container and run it in the reCopmuter. execut
 sudo bash riva_init.sh
 sudo bash riva_start.sh
 ```
+## Run The Chatbot
+Finally all things gets done.  now we can run the app.py to run the chatbot with a GUI that you can speak with the reComputer and it responses to you. Run the command as below.
 
+```
+python3 app.py --list-input-devices
+python3 app.py --list-output-devices
+python3 app.py --input-device <your device id> --output-device <your device id>
+```
 
+HAVE A GOOD CONVERSATION WITH ROBOTS :)))))))
 
 
 
